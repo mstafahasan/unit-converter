@@ -1,0 +1,7 @@
+D:\vscode\unit convertor\x64\Debug\unit convertor.vcxproj.AssemblyReference.cache
+D:\vscode\unit convertor\x64\Debug\unitconvertor.hellowindow.resources
+D:\vscode\unit convertor\x64\Debug\unit convertor.vcxproj.GenerateResource.cache
+D:\vscode\unit convertor\x64\Debug\unit convertor.exe
+D:\vscode\unit convertor\x64\Debug\unitconvertor.angles convertor.resources
+D:\vscode\unit convertor\x64\Debug\unitconvertor.areas convertor.resources
+D:\vscode\unit convertor\x64\Debug\unitconvertor.length convertor .resources

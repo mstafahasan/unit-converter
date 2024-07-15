@@ -1,0 +1,66 @@
+﻿  length convertor .cpp
+D:\vscode\unit convertor\length convertor .cpp(10,22): error C2084: function 'unitconvertor::lengthconvertor::lengthconvertor(void)' already has a body
+  D:\vscode\unit convertor\length convertor .h(15,9):
+  see previous definition of '{ctor}'
+  
+D:\vscode\unit convertor\length convertor .cpp(14,23): error C2084: function 'unitconvertor::lengthconvertor::~lengthconvertor(void)' already has a body
+  D:\vscode\unit convertor\length convertor .h(21,10):
+  see previous definition of '{dtor}'
+  
+D:\vscode\unit convertor\length convertor .cpp(20,27): error C2084: function 'void unitconvertor::lengthconvertor::InitializeComponent(void)' already has a body
+  D:\vscode\unit convertor\length convertor .h(38,14):
+  see previous definition of 'InitializeComponent'
+  
+D:\vscode\unit convertor\length convertor .cpp(65,29): error C2084: function 'double unitconvertor::lengthconvertor::ConvertLength(double,System::String ^,System::String ^)' already has a body
+  D:\vscode\unit convertor\length convertor .h(145,16):
+  see previous definition of 'ConvertLength'
+  
+D:\vscode\unit convertor\length convertor .cpp(138,27): error C2084: function 'void unitconvertor::lengthconvertor::linkLabel1_LinkClicked(System::Object ^,System::Windows::Forms::LinkLabelLinkClickedEventArgs ^)' already has a body
+  D:\vscode\unit convertor\length convertor .h(120,22):
+  see previous definition of 'linkLabel1_LinkClicked'
+  
+D:\vscode\unit convertor\length convertor .cpp(144,27): error C2084: function 'void unitconvertor::lengthconvertor::buttonConvert_Click(System::Object ^,System::EventArgs ^)' already has a body
+  D:\vscode\unit convertor\length convertor .h(131,22):
+  see previous definition of 'buttonConvert_Click'
+  
+D:\vscode\unit convertor\length convertor .cpp(149,29): error C2065: 'ConvertLength': undeclared identifier
+D:\vscode\unit convertor\length convertor .cpp(149,27): error C2440: 'initializing': cannot convert from 'double (__clrcall unitconvertor::lengthconvertor::* )(double,System::String ^,System::String ^)' to 'double'
+  D:\vscode\unit convertor\length convertor .cpp(149,27):
+  Context does not allow for disambiguation of overloaded function
+  
+  program.cpp
+D:\vscode\unit convertor\length convertor .h(12,38): error C2011: 'unitconvertor::lengthconvertor': 'class' type redefinition
+  (compiling source file 'program.cpp')
+  D:\vscode\unit convertor\length_converter.h(7,22):
+  see declaration of 'unitconvertor::lengthconvertor'
+  
+D:\vscode\unit convertor\program.cpp(10,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+D:\vscode\unit convertor\program.cpp(21,103): error C2027: use of undefined type 'unitconvertor::lengthconvertor'
+  D:\vscode\unit convertor\length_converter.h(7,22):
+  see declaration of 'unitconvertor::lengthconvertor'
+  
+D:\vscode\unit convertor\program.cpp(22,30): error C2665: 'System::Windows::Forms::Application::Run': no overloaded function could convert all the argument types
+  D:\vscode\unit convertor\program.cpp(22,49):
+  could be 'void System::Windows::Forms::Application::Run(System::Windows::Forms::ApplicationContext ^)'
+  	D:\vscode\unit convertor\program.cpp(22,30):
+  	'void System::Windows::Forms::Application::Run(System::Windows::Forms::ApplicationContext ^)': cannot convert argument 1 from 'unitconvertor::lengthconvertor ^' to 'System::Windows::Forms::ApplicationContext ^'
+  		D:\vscode\unit convertor\program.cpp(22,34):
+  		Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\vscode\unit convertor\program.cpp(22,49):
+  or       'void System::Windows::Forms::Application::Run(System::Windows::Forms::Form ^)'
+  	D:\vscode\unit convertor\program.cpp(22,30):
+  	'void System::Windows::Forms::Application::Run(System::Windows::Forms::Form ^)': cannot convert argument 1 from 'unitconvertor::lengthconvertor ^' to 'System::Windows::Forms::Form ^'
+  		D:\vscode\unit convertor\program.cpp(22,34):
+  		Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\vscode\unit convertor\program.cpp(22,30):
+  while trying to match the argument list '(unitconvertor::lengthconvertor ^)'
+  
+D:\vscode\unit convertor\program.cpp(23,21): error C2027: use of undefined type 'unitconvertor::lengthconvertor'
+  D:\vscode\unit convertor\length_converter.h(7,22):
+  see declaration of 'unitconvertor::lengthconvertor'
+  
+D:\vscode\unit convertor\program.cpp(23,98): error C2027: use of undefined type 'unitconvertor::lengthconvertor'
+  D:\vscode\unit convertor\length_converter.h(7,22):
+  see declaration of 'unitconvertor::lengthconvertor'
+  
+  Generating Code...
